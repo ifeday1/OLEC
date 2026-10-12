@@ -1,6 +1,6 @@
 import { ArrowRight, CalendarDays, MapPin, Trophy, Layers, Users } from 'lucide-react'
 import { EVENT, LINKS } from '../config'
-import { Button, WhatsAppIcon } from '../components/ui'
+import { Button } from '../components/ui'
 import Countdown from '../components/Countdown'
 import hero from '../assets/img/hero.webp'
 
@@ -46,7 +46,7 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <Button href={LINKS.register}>
-              <WhatsAppIcon /> Register Interest
+              Register Now
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </Button>
             <Button href={LINKS.sponsor} variant="ghost">

@@ -1,7 +1,7 @@
 import { ArrowUpRight, Mail, UserRound, Plus } from 'lucide-react'
 import { PROGRAMME, AUDIENCE, SPEAKER_TRACKS } from '../data'
 import { LINKS } from '../config'
-import { Reveal, SectionHeading, Button, WhatsAppIcon } from '../components/ui'
+import { Reveal, SectionHeading, Button } from '../components/ui'
 import stage from '../assets/img/stage.webp'
 
 export function Programme() {
@@ -16,7 +16,7 @@ export function Programme() {
           />
           <Reveal>
             <Button href={LINKS.register} variant="dark">
-              <WhatsAppIcon /> Save my seat
+              Save my seat
             </Button>
           </Reveal>
         </div>

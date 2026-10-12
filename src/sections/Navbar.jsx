@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { NAV } from '../data'
 import { LINKS } from '../config'
-import { Button, WhatsAppIcon } from '../components/ui'
+import { Button } from '../components/ui'
 import mark from '../assets/img/mark-gold.png'
 
 export default function Navbar() {
@@ -51,7 +51,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <div className="hidden sm:block">
             <Button href={LINKS.register} className="!px-5 !py-2.5">
-              <WhatsAppIcon /> Register
+              Register
             </Button>
           </div>
           <button
@@ -84,7 +84,7 @@ export default function Navbar() {
           ))}
           <li className="mt-auto">
             <Button href={LINKS.register} className="w-full !py-4" onClick={() => setOpen(false)}>
-              <WhatsAppIcon /> Register on WhatsApp
+              Register Now
             </Button>
           </li>
         </ul>

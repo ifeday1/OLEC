@@ -33,7 +33,8 @@ export const mailLink = (subject, body = '') =>
   `mailto:${CONTACT.email}?subject=${encodeURIComponent(subject)}${body ? `&body=${encodeURIComponent(body)}` : ''}`
 
 export const LINKS = {
-  register: whatsappLink("Hello OLEC team, I'd like to register for #OLEC'26."),
+  register: 'https://live.provinear.com/e/osun-local-economy-conference-olec/',
+  whatsapp: whatsappLink("Hello OLEC team, I'd like to find out more about #OLEC'26."),
   sponsor: mailLink("Partnership / Sponsorship enquiry: OLEC'26"),
   speak: mailLink("Speaker application: OLEC'26"),
   pitch: whatsappLink("Hello OLEC team, I'd like to apply for the OLEC'26 Innovation Pitch competition."),

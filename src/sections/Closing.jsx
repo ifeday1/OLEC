@@ -90,7 +90,7 @@ export function Contact() {
             Register your interest, apply for the pitch competition, or partner with us. We'd love to hear from you.
           </p>
           <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
-            <Button href={LINKS.register}>
+            <Button href={LINKS.whatsapp}>
               <WhatsAppIcon /> Chat on WhatsApp
             </Button>
             <Button href={LINKS.sponsor} variant="ghost">
@@ -128,7 +128,7 @@ export function Footer() {
         <div className="md:col-span-4">
           <p className="font-display text-sm font-semibold text-white">Get in touch</p>
           <ul className="mt-4 space-y-2 text-sm">
-            <li><a href={LINKS.register} target="_blank" rel="noopener noreferrer" className="hover:text-gold-300">WhatsApp: {CONTACT.whatsappDisplay}</a></li>
+            <li><a href={LINKS.whatsapp} target="_blank" rel="noopener noreferrer" className="hover:text-gold-300">WhatsApp: {CONTACT.whatsappDisplay}</a></li>
             <li><a href={`mailto:${CONTACT.email}`} className="hover:text-gold-300">{CONTACT.email}</a></li>
             {SOCIALS.map((s) => (
               <li key={s.href}><a href={s.href} target="_blank" rel="noopener noreferrer" className="hover:text-gold-300">{s.label}</a></li>
