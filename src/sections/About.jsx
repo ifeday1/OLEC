@@ -98,7 +98,7 @@ export function VisionMission() {
           <p className="relative mt-5 text-lg leading-relaxed text-white/80">
             To build a <span className="text-gold-300">thriving, self-sustaining local economy</span> in Osun State by empowering
             youths, entrepreneurs, and professionals to create value-driven businesses and opportunities that can scale
-            globally, reducing dependency on federal allocation and transforming Osun into a hub of innovation and economic
+            globally reducing dependency on federal allocation and transforming Osun into a hub of innovation and economic
             growth.
           </p>
         </Reveal>
