@@ -49,7 +49,7 @@ export default function Hero() {
               Register Now
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button href={LINKS.sponsor} variant="ghost">
+            <Button href={LINKS.sponsorDeck} download="OLEC Partnership & Sponsorship.pdf" variant="ghost">
               Partner with OLEC
             </Button>
           </div>

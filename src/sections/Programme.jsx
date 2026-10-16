@@ -170,7 +170,7 @@ export function Sponsors() {
               Put your brand at the centre of a movement connecting youths, SMEs, investors, the diaspora, and government.
             </p>
           </div>
-          <Button href={LINKS.sponsor} variant="dark" className="shrink-0">
+          <Button href={LINKS.sponsorDeck} download="OLEC Partnership & Sponsorship.pdf" variant="dark" className="shrink-0">
             <Plus className="size-4" /> Become a sponsor
           </Button>
         </Reveal>

@@ -149,6 +149,6 @@ export const FAQS = [
   },
   {
     q: 'How can my organisation partner or sponsor?',
-    a: 'We welcome partners who share our vision of a self-sustaining Osun economy. Send us an email and our team will share partnership options.',
+    a: 'We welcome partners who share our vision of a self-sustaining Osun economy. Download the partnership & sponsorship deck from this page, or send us an email and our team will walk you through the options.',
   },
 ]
