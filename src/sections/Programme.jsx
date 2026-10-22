@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, UserRound, Plus } from 'lucide-react'
+import { ArrowUpRight, UserRound, Plus } from 'lucide-react'
 import { PROGRAMME, AUDIENCE, SPEAKER_TRACKS } from '../data'
 import { LINKS } from '../config'
 import { Reveal, SectionHeading, Button } from '../components/ui'
@@ -117,11 +117,6 @@ export function Speakers() {
             title="Voices shaping the new Osun economy"
             intro="Keynotes from experts across business, policy, technology, creative industries, finance, education, and entrepreneurship. Speakers will be announced soon."
           />
-          <Reveal>
-            <Button href={LINKS.speak} variant="ghost">
-              <Mail className="size-4" /> Apply to speak
-            </Button>
-          </Reveal>
         </div>
 
         <div className="mt-14 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
