@@ -8,7 +8,7 @@ export const EVENT = {
   // Set to true once the date is final; until then the page shows "Date to be confirmed".
   dateConfirmed: true,
   dateLabel: 'Date to be announced',
-  venue: 'Olagunsoye Oyinlola Hall, Osun State University, Osogbo, Osun State',
+  venue: 'Osogbo Grammar School Event Hall, Osogbo, Osun State',
   venueConfirmed: true,
 }
 
