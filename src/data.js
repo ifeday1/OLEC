@@ -4,6 +4,9 @@ import {
   Lightbulb, Link2, Briefcase, Scale,
   Sparkles, Store, UserRound, GraduationCap,
 } from 'lucide-react'
+import durotoye from './assets/img/speakers/durotoye.jpg'
+import adeyemo from './assets/img/speakers/adeyemo.jpg'
+import ojesanmi from './assets/img/speakers/ojesanmi.jpg'
 
 export const NAV = [
   { href: '#about', label: 'About' },
@@ -108,7 +111,41 @@ export const AUDIENCE = [
   { icon: GraduationCap, title: 'Higher Institution Students', body: 'Those with ideas, innovation projects, or early-stage startups who need a platform and support to grow.' },
 ]
 
-export const SPEAKER_TRACKS = ['Business', 'Policy', 'Technology', 'Creative Industries', 'Finance', 'Education', 'Entrepreneurship', 'Diaspora']
+export const THEME = 'Economy Beyond Allocation'
+
+// Add a `photo` and `bio` (one string per paragraph) to any speaker and they appear on their card.
+export const SPEAKERS = [
+  {
+    name: 'Prof. Adeolu Durotoye',
+    role: 'Keynote Speaker',
+    title: 'Global Finance Leader & Founder, AdeJane Foundation',
+    photo: durotoye,
+    bio: [
+      'Professor Adeolu Durotoye is a distinguished global leader, accomplished educator, author, speaker, philanthropist, preacher, and financial advisor whose work spans academia, leadership, community development, financial empowerment, and Christian ministry. With a life dedicated to developing people and strengthening communities, he has become a passionate advocate for education, financial literacy, wealth creation, and the building of enduring legacies across generations.',
+      'A prolific scholar, Professor Durotoye has authored books and published numerous academic articles. His scholarly work has attracted citations internationally, contributing to academic discourse and extending the reach of his ideas beyond the institutions in which he has served.',
+      'At the heart of Professor Durotoye’s work is a deep commitment to service and improving the lives of others, particularly people facing economic and social disadvantages.',
+      'This passion inspired him to establish the AdeJane Foundation, a philanthropic initiative dedicated to empowering individuals and communities and helping people pursue opportunities that can transform their lives.',
+      'Through the foundation, Professor Durotoye has championed and supported projects designed to create meaningful and lasting impact. Its work reflects his conviction that achievement carries with it a responsibility to create opportunities for others. Through various initiatives, the AdeJane Foundation has helped individuals pursue their dreams, overcome barriers, and work toward better futures.',
+      'Through education, financial empowerment, philanthropy, leadership, and Christian service, Professor Adeolu Durotoye continues to pursue a singular vision: to transform lives, create opportunities, and help build a future in which individuals, families, and communities can thrive for generations to come.',
+    ],
+  },
+  { name: 'Adeniyi Adeyemo', role: 'Convener', title: 'Osun Local Economy Conference', photo: adeyemo },
+  { name: 'Adedayo Oderinu', role: 'Speaker', title: 'Founder, Afinju 90.7 FM' },
+  { name: 'Arch. Seye Opaleye', role: 'Speaker', title: 'Founder, Joycetech Global' },
+  { name: 'Taiwo Olaonipekun', role: 'Speaker', title: 'Founder, Farmfixers' },
+  { name: 'Dr. Ishola Modupe Olanrewaju', role: 'Speaker', title: 'Founder, Orokifoods' },
+  {
+    name: 'Oluwaseyi Jeremiah Ojesanmi',
+    role: 'Speaker',
+    title: 'Senior Software Engineer & Founder, JASOT Academy',
+    photo: ojesanmi,
+    bio: [
+      'Jeremiah is a technology entrepreneur and senior software engineer with over a decade of experience turning business challenges into practical digital solutions. He founded JASOT Academy, a remote-first technology education and software solutions company with a distributed team across Nigeria.',
+      'A Computer Engineering graduate of LAUTECH, he holds the Kubernetes and Cloud Native Associate (KCNA) certification. His experience includes remote engineering work with Ireland-based Raw Technology and contributions to Ledgera, a fintech platform connecting merchants and supporting business management.',
+      'Based in Osogbo, Jeremiah is passionate about developing digital talent and helping entrepreneurs use technology to strengthen their businesses, reach wider markets, and create economic opportunities. His work reflects a clear conviction: build from where you are and create value beyond where you live.',
+    ],
+  },
+]
 
 export const STANDS_FOR = [
   "Empowering Osun's economic backbone (youths & SMEs)",

@@ -1,5 +1,6 @@
-import { ArrowUpRight, UserRound, Plus } from 'lucide-react'
-import { PROGRAMME, AUDIENCE, SPEAKER_TRACKS } from '../data'
+import { useState } from 'react'
+import { ArrowUpRight, Plus, UserRound } from 'lucide-react'
+import { PROGRAMME, AUDIENCE, SPEAKERS } from '../data'
 import { LINKS } from '../config'
 import { Reveal, SectionHeading, Button } from '../components/ui'
 import stage from '../assets/img/stage.webp'
@@ -115,27 +116,62 @@ export function Speakers() {
             dark
             eyebrow="Speakers"
             title="Voices shaping the new Osun economy"
-            intro="Keynotes from experts across business, policy, technology, creative industries, finance, education, and entrepreneurship. Speakers will be announced soon."
+            intro="Keynotes from experts across business, policy, technology, creative industries, finance, education, and entrepreneurship."
           />
         </div>
 
-        <div className="mt-14 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
-          {SPEAKER_TRACKS.map((track, i) => (
-            <Reveal key={track} delay={(i % 4) * 70} className="group">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-gradient-to-b from-forest-700 to-forest-900 ring-1 ring-white/10">
-                <div className="bg-grid absolute inset-0 opacity-60" />
-                <UserRound className="absolute inset-x-0 bottom-0 mx-auto size-3/4 text-white/[0.07] transition-transform duration-500 group-hover:scale-105" strokeWidth={1} />
-                <span className="absolute top-4 left-4 rounded-full bg-gold-500/15 px-3 py-1 text-[11px] font-semibold tracking-wider text-gold-300 uppercase ring-1 ring-gold-500/30">
-                  {track}
-                </span>
-              </div>
-              <p className="mt-4 font-display font-semibold">To be announced</p>
-              <p className="text-sm text-white/50">{track} keynote</p>
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {SPEAKERS.map((s, i) => (
+            <Reveal key={s.name} delay={(i % 3) * 70}>
+              <SpeakerCard speaker={s} />
             </Reveal>
           ))}
         </div>
       </div>
     </section>
+  )
+}
+
+function SpeakerCard({ speaker: s }) {
+  const [open, setOpen] = useState(false)
+  const featured = s.role !== 'Speaker'
+  return (
+    <article className={`flex h-full flex-col overflow-hidden rounded-3xl ring-1 ${featured ? 'bg-gold-500/10 ring-gold-500/30' : 'bg-white/[0.04] ring-white/10'}`}>
+      <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-forest-700 to-forest-900">
+        {s.photo ? (
+          <img src={s.photo} alt={s.name} className="size-full object-cover object-top" loading="lazy" />
+        ) : (
+          <>
+            <div className="bg-grid absolute inset-0 opacity-60" />
+            <UserRound className="absolute inset-x-0 bottom-0 mx-auto size-3/4 text-white/[0.07]" strokeWidth={1} />
+          </>
+        )}
+        <span className="absolute top-4 left-4 rounded-full bg-forest-900/80 px-3 py-1 text-[11px] font-semibold tracking-wider text-gold-300 uppercase ring-1 ring-gold-500/30 backdrop-blur">
+          {s.role}
+        </span>
+      </div>
+      <div className="flex flex-1 flex-col p-6 sm:p-7">
+        <h3 className="font-display text-xl font-bold">{s.name}</h3>
+        <p className="mt-1 text-sm text-gold-300/80">{s.title}</p>
+        {s.bio && (
+          <>
+            <div className={`mt-4 space-y-3 leading-relaxed text-white/70 ${open ? '' : 'line-clamp-4'}`}>
+              {(open ? s.bio : s.bio.slice(0, 1)).map((p) => (
+                <p key={p.slice(0, 24)}>{p}</p>
+              ))}
+            </div>
+            <button
+              type="button"
+              onClick={() => setOpen(!open)}
+              aria-expanded={open}
+              className="mt-4 self-start font-display text-sm font-semibold text-gold-400 underline-offset-4 hover:underline"
+            >
+              {open ? 'Show less' : 'Read full bio'}
+            </button>
+          </>
+        )}
+      </div>
+    </article>
   )
 }
 

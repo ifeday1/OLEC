@@ -1,5 +1,6 @@
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
+import Flyer from './sections/Flyer'
 import { Marquee, About, VisionMission } from './sections/About'
 import { Problem, Pillars } from './sections/Problem'
 import { Programme, Audience, Speakers, Sponsors } from './sections/Programme'
@@ -13,6 +14,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <Flyer />
         <Marquee />
         <About />
         <VisionMission />
