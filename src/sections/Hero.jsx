@@ -26,8 +26,8 @@ export default function Hero() {
             Osun Local <span className="bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500 bg-clip-text text-transparent">Economy</span> Conference
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75 sm:text-xl">
-            Building a <strong className="font-bold text-white">local-to-global</strong> economic movement for Osun State,
-            where businesses thrive, youths create global opportunities from home, and growth is community-driven.
+            Building a <strong className="font-bold text-white">local to global</strong> economic movement for Osun State,
+            where businesses thrive, youths create global opportunities from home, and growth is driven by the community.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-white/80">
@@ -67,7 +67,7 @@ export default function Hero() {
 
             <FloatCard className="-bottom-6 -left-4 sm:-left-10" icon={Trophy} kicker="Innovation Pitch" value="₦1,000,000" note="in grants" />
             <FloatCard className="-top-6 -right-3 sm:-right-8 [animation-delay:-3s]" icon={Layers} kicker="Solution model" value="4 Pillars" />
-            <FloatCard className="right-6 -bottom-10 hidden sm:flex [animation-delay:-1.5s]" icon={Users} kicker="Built for" value="Youths 18–45" light />
+            <FloatCard className="right-6 -bottom-10 hidden sm:flex [animation-delay:-1.5s]" icon={Users} kicker="Built for" value="Youths 18 to 45" light />
           </div>
         </div>
       </div>

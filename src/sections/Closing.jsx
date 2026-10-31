@@ -114,7 +114,7 @@ export function Footer() {
         <div className="md:col-span-5">
           <img src={logo} alt="Osun Local Economy Conference" className="h-24 w-auto" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed">
-            Building a local-to-global economic movement for Osun State. {EVENT.venue}.
+            Building a local to global economic movement for Osun State. {EVENT.venue}.
           </p>
         </div>
         <div className="md:col-span-3">

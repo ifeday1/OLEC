@@ -21,7 +21,7 @@ export function Problem() {
         <SectionHeading
           dark
           eyebrow="The Problem We Are Solving"
-          title="Enormous potential, held back by deep-rooted challenges."
+          title="Enormous potential, held back by deep challenges."
           intro="Osun State holds enormous cultural, intellectual, and entrepreneurial potential, yet faces several economic challenges that OLEC was built to confront."
         />
 

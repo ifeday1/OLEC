@@ -27,12 +27,12 @@ export const BRIDGES = [
 export const MISSION = [
   'Promote local entrepreneurship and empower SMEs with skills, tools, and networks',
   'Bridge the collaboration gap between businesses, professionals, government, and investors',
-  'Activate a local-to-global mindset within the Osun youth population',
+  'Activate a local to global mindset within the Osun youth population',
   'Reduce youth migration by creating viable entrepreneurial and career opportunities within the state',
-  'Build a strong innovation ecosystem that supports early-stage ideas, student-led startups, and sector-based growth',
+  'Build a strong innovation ecosystem that supports new ideas, startups led by students, and growth across sectors',
   'Influence public policy that improves the ease of doing business in Osun',
   'Foster meaningful B2B and B2P interactions',
-  'Establish long-term structures, such as the Osun Business Network (OBN), for year-round support',
+  'Establish lasting structures, such as the Osun Business Network (OBN), for support all year round',
 ]
 
 export const PROBLEMS = [
@@ -58,7 +58,7 @@ export const PROBLEMS = [
   },
   {
     icon: Compass,
-    title: 'No Unified Economic Vision for Youths (18–45)',
+    title: 'No Unified Economic Vision for Youths (18 to 45)',
     body: "The youth population is the backbone of Osun's future. OLEC provides a unifying platform to equip this demographic and activate their potential.",
     lead: 'Some lack:',
     points: ['Access to mentors', 'Funding', 'Business advisory', 'Digital skills', 'Exposure to global opportunities', 'Networking platforms'],
@@ -76,12 +76,12 @@ export const PILLARS = [
   {
     icon: Lightbulb,
     title: 'Business Development & Innovation',
-    items: ['Masterclasses and training sessions', 'Innovation Pitch Grant (₦1,000,000 total)', 'Mentorship sessions', 'Access to local and global knowledge', 'SME capacity-building programs'],
+    items: ['Masterclasses and training sessions', 'Innovation Pitch Grant (₦1,000,000 total)', 'Mentorship sessions', 'Access to local and global knowledge', 'Capacity building programs for SMEs'],
   },
   {
     icon: Link2,
     title: 'Collaboration & Network Building',
-    items: ['B2B Matchmaking', 'B2P Matchmaking', 'Professional and business networking lounges', 'Diaspora-to-local partnership sessions', 'The Osun Business Network (OBN) for year-round engagement'],
+    items: ['B2B Matchmaking', 'B2P Matchmaking', 'Professional and business networking lounges', 'Partnership sessions between the diaspora and local businesses', 'The Osun Business Network (OBN) for engagement all year round'],
   },
   {
     icon: Briefcase,
@@ -91,7 +91,7 @@ export const PILLARS = [
   {
     icon: Scale,
     title: 'Government & Policy Engagement',
-    items: ['Conversations with policymakers', 'Advocacy for SME-friendly policies', 'Dialogue on taxes, ease of doing business, permits, and regulation', 'Building a stronger private–public partnership for economic growth'],
+    items: ['Conversations with policymakers', 'Advocacy for policies that support SMEs', 'Dialogue on taxes, ease of doing business, permits, and regulation', 'Building stronger partnerships between the public and private sectors for economic growth'],
   },
 ]
 
@@ -101,14 +101,14 @@ export const PROGRAMME = [
   { icon: Trophy, title: 'Innovation Pitch Competition', body: 'Young innovators pitch for a share of ₦1,000,000 in grants.', featured: true },
   { icon: Handshake, title: 'B2B & B2P Matchmaking', body: 'Connecting businesses, professionals, and students to opportunities.' },
   { icon: Stethoscope, title: 'Business Clinic', body: 'Entrepreneurs meet mentors, advisors, professionals, and investors.' },
-  { icon: Network, title: 'Osun Business Network Launch', body: 'A year-round digital and physical platform for collaboration and growth.' },
+  { icon: Network, title: 'Osun Business Network Launch', body: 'A digital and physical platform for collaboration and growth all year round.' },
 ]
 
 export const AUDIENCE = [
-  { icon: Sparkles, title: 'Youths (18–45)', body: 'Students, job-seekers, young innovators, creators, freelancers, and aspiring entrepreneurs.' },
+  { icon: Sparkles, title: 'Youths (18 to 45)', body: 'Students, job seekers, young innovators, creators, freelancers, and aspiring entrepreneurs.' },
   { icon: Store, title: 'Entrepreneurs & Business Owners', body: 'SMEs, startups, traders, creative businesses, digital entrepreneurs, and local service providers.' },
   { icon: UserRound, title: 'Professionals', body: 'Corporate workers in the private and public sector, government agencies, NGOs, banking, tech, education, and more.' },
-  { icon: GraduationCap, title: 'Higher Institution Students', body: 'Those with ideas, innovation projects, or early-stage startups who need a platform and support to grow.' },
+  { icon: GraduationCap, title: 'Higher Institution Students', body: 'Those with ideas, innovation projects, or new startups who need a platform and support to grow.' },
 ]
 
 export const THEME = 'Economy Beyond Allocation'
@@ -140,8 +140,8 @@ export const SPEAKERS = [
     title: 'Senior Software Engineer & Founder, JASOT Academy',
     photo: ojesanmi,
     bio: [
-      'Jeremiah is a technology entrepreneur and senior software engineer with over a decade of experience turning business challenges into practical digital solutions. He founded JASOT Academy, a remote-first technology education and software solutions company with a distributed team across Nigeria.',
-      'A Computer Engineering graduate of LAUTECH, he holds the Kubernetes and Cloud Native Associate (KCNA) certification. His experience includes remote engineering work with Ireland-based Raw Technology and contributions to Ledgera, a fintech platform connecting merchants and supporting business management.',
+      'Jeremiah is a technology entrepreneur and senior software engineer with over a decade of experience turning business challenges into practical digital solutions. He founded JASOT Academy, a remote technology education and software solutions company with a distributed team across Nigeria.',
+      'A Computer Engineering graduate of LAUTECH, he holds the Kubernetes and Cloud Native Associate (KCNA) certification. His experience includes remote engineering work with Raw Technology in Ireland and contributions to Ledgera, a fintech platform connecting merchants and supporting business management.',
       'Based in Osogbo, Jeremiah is passionate about developing digital talent and helping entrepreneurs use technology to strengthen their businesses, reach wider markets, and create economic opportunities. His work reflects a clear conviction: build from where you are and create value beyond where you live.',
     ],
   },
@@ -153,7 +153,7 @@ export const STANDS_FOR = [
   'Creating a thriving local market',
   'Scaling businesses from Osogbo to the world',
   'Driving sustainable wealth creation',
-  'Supporting business-friendly policy reforms',
+  'Supporting policy reforms that favour business',
   'Building a connected, innovative Osun',
 ]
 
@@ -162,15 +162,15 @@ export const MARQUEE = ['Business', 'Innovation', 'Collaboration', 'Local to Glo
 export const FAQS = [
   {
     q: 'What is OLEC?',
-    a: 'The Osun Local Economy Conference is a yearly, impact-driven conference designed to catalyze economic transformation in Osun State by empowering youths, entrepreneurs, professionals, innovators, and policymakers with the tools, partnerships, networks, and mindset to build sustainable businesses and careers within the state.',
+    a: 'The Osun Local Economy Conference is a yearly conference focused on impact, designed to catalyze economic transformation in Osun State by empowering youths, entrepreneurs, professionals, innovators, and policymakers with the tools, partnerships, networks, and mindset to build sustainable businesses and careers within the state.',
   },
   {
     q: 'Who should attend?',
-    a: 'Youths aged 18–45, entrepreneurs and business owners, professionals across the private and public sector, and higher institution students with ideas or early-stage startups. Investors, policymakers, and Osun professionals in the diaspora are also key participants.',
+    a: 'Youths aged 18 to 45, entrepreneurs and business owners, professionals across the private and public sector, and higher institution students with ideas or new startups. Investors, policymakers, and Osun professionals in the diaspora are also key participants.',
   },
   {
     q: "I'm an Osun indigene living outside the state or abroad. Is OLEC for me?",
-    a: 'Absolutely. OLEC brings together local and diaspora Osun professionals, and includes dedicated diaspora-to-local partnership sessions to connect global experience with local opportunity.',
+    a: 'Absolutely. OLEC brings together local and diaspora Osun professionals, and includes dedicated partnership sessions between the diaspora and local businesses to connect global experience with local opportunity.',
   },
   {
     q: 'How does the Innovation Pitch competition work?',
@@ -182,10 +182,10 @@ export const FAQS = [
   },
   {
     q: 'What is the Osun Business Network (OBN)?',
-    a: 'Launching at OLEC, the OBN is a year-round digital and physical platform for collaboration and growth. It keeps the momentum going long after the conference ends.',
+    a: 'Launching at OLEC, the OBN is a digital and physical platform for collaboration and growth all year round. It keeps the momentum going long after the conference ends.',
   },
   {
     q: 'How can my organisation partner or sponsor?',
-    a: 'We welcome partners who share our vision of a self-sustaining Osun economy. Download the partnership & sponsorship deck from this page, or send us an email and our team will walk you through the options.',
+    a: 'We welcome partners who share our vision of an Osun economy that sustains itself. Download the partnership & sponsorship deck from this page, or send us an email and our team will walk you through the options.',
   },
 ]

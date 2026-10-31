@@ -32,13 +32,13 @@ export function About() {
             />
             <Reveal delay={100} className="mt-6 space-y-5 text-lg leading-relaxed text-ink/75">
               <p>
-                The Osun Local Economy Conference (OLEC) is a yearly, impact-driven conference designed to catalyze economic
+                The Osun Local Economy Conference (OLEC) is a yearly conference focused on impact, designed to catalyze economic
                 transformation in Osun State by empowering youths, entrepreneurs, professionals, innovators, and policymakers with
                 the tools, partnerships, networks, and mindset needed to build sustainable businesses and careers within the state.
               </p>
               <p>
                 It brings together local and diaspora Osun professionals, student innovators, business owners, investors, and
-                government stakeholders to collectively tackle the state's long-standing challenges.
+                government stakeholders to collectively tackle the state's longstanding challenges.
               </p>
             </Reveal>
           </div>
@@ -96,8 +96,8 @@ export function VisionMission() {
           </span>
           <h2 className="mt-8 font-display text-3xl font-bold sm:text-4xl">The Vision</h2>
           <p className="relative mt-5 text-lg leading-relaxed text-white/80">
-            To build a <span className="text-gold-300">thriving, self-sustaining local economy</span> in Osun State by empowering
-            youths, entrepreneurs, and professionals to create value-driven businesses and opportunities that can scale
+            To build a <span className="text-gold-300">thriving local economy that sustains itself</span> in Osun State by empowering
+            youths, entrepreneurs, and professionals to create valuable businesses and opportunities that can scale
             globally reducing dependency on federal allocation and transforming Osun into a hub of innovation and economic
             growth.
           </p>
