@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowUpRight, Plus, UserRound } from 'lucide-react'
+import { ArrowUpRight, UserRound } from 'lucide-react'
 import { PROGRAMME, AUDIENCE, SPEAKERS } from '../data'
 import { LINKS } from '../config'
 import { Reveal, SectionHeading, Button } from '../components/ui'
@@ -172,40 +172,5 @@ function SpeakerCard({ speaker: s }) {
         )}
       </div>
     </article>
-  )
-}
-
-export function Sponsors() {
-  return (
-    <section id="partners" className="py-24 sm:py-28">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <Reveal className="text-center">
-          <p className="font-display text-xs font-semibold tracking-[0.2em] text-ink/50 uppercase">Partners & Sponsors</p>
-        </Reveal>
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <Reveal
-              key={i}
-              delay={i * 50}
-              className="grid h-24 place-items-center rounded-2xl border border-dashed border-forest-800/20 text-sm text-ink/40"
-            >
-              Your logo here
-            </Reveal>
-          ))}
-        </div>
-
-        <Reveal className="mt-12 flex flex-col items-start justify-between gap-6 rounded-3xl bg-white p-8 ring-1 ring-forest-800/10 sm:flex-row sm:items-center sm:p-10">
-          <div>
-            <h3 className="font-display text-2xl font-bold text-forest-800">Invest in Osun's next chapter</h3>
-            <p className="mt-2 max-w-xl text-ink/70">
-              Put your brand at the centre of a movement connecting youths, SMEs, investors, the diaspora, and government.
-            </p>
-          </div>
-          <Button href={LINKS.sponsorDeck} download="OLEC Partnership & Sponsorship.pdf" variant="dark" className="shrink-0">
-            <Plus className="size-4" /> Become a sponsor
-          </Button>
-        </Reveal>
-      </div>
-    </section>
   )
 }

@@ -133,7 +133,18 @@ export const SPEAKERS = [
       'Through education, financial empowerment, philanthropy, leadership, and Christian service, Professor Adeolu Durotoye continues to pursue a singular vision: to transform lives, create opportunities, and help build a future in which individuals, families, and communities can thrive for generations to come.',
     ],
   },
-  { name: 'Adeniyi Adeyemo', role: 'Convener', title: 'Osun Local Economy Conference', photo: adeyemo },
+  {
+    name: 'Adeniyi Adeyemo',
+    role: 'Convener',
+    title: 'Osun Local Economy Conference',
+    photo: adeyemo,
+    bio: [
+      'Adeniyi Adeyemo is a passionate HR professional and people leader with over seven years of experience in cultivating high-performing organisational cultures.',
+      'Known for his people-centred approach, he helps individuals and organisations create environments where talent can thrive, professional aspirations are realised, and productivity is maximised through strategic alignment.',
+      'Beyond his corporate HR career, Adeniyi is deeply committed to youth mentorship as a fundamental pillar of his leadership journey. For more than a decade, he has mentored hundreds of teens and young adults, guiding them to unlock their potential, embrace purpose, and build meaningful lives characterised by resilience and vision. His impact extends far beyond the workplace, touching lives in profound ways.',
+      'Whether in HR practice or personal mentorship, his mission is consistent: to inspire transformation, foster growth, and empower people to maximise their potential. Through dedicated coaching and leadership, he remains a catalyst for change, helping others navigate their paths toward both professional excellence and personal fulfilment in every sphere of life.',
+    ],
+  },
   {
     name: 'Adedayo Oderinu',
     role: 'Speaker',
