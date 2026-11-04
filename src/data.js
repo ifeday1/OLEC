@@ -7,6 +7,10 @@ import {
 import durotoye from './assets/img/speakers/durotoye.jpg'
 import adeyemo from './assets/img/speakers/adeyemo.jpg'
 import ojesanmi from './assets/img/speakers/ojesanmi.jpg'
+import oderinu from './assets/img/speakers/oderinu.jpg'
+import opaleye from './assets/img/speakers/opaleye.jpg'
+import olaonipekun from './assets/img/speakers/olaonipekun.jpg'
+import olanrewaju from './assets/img/speakers/olanrewaju.jpg'
 
 export const NAV = [
   { href: '#about', label: 'About' },
@@ -130,10 +134,54 @@ export const SPEAKERS = [
     ],
   },
   { name: 'Adeniyi Adeyemo', role: 'Convener', title: 'Osun Local Economy Conference', photo: adeyemo },
-  { name: 'Adedayo Oderinu', role: 'Speaker', title: 'Founder, Afinju 90.7 FM' },
-  { name: 'Arch. Seye Opaleye', role: 'Speaker', title: 'Founder, Joycetech Global' },
-  { name: 'Taiwo Olaonipekun', role: 'Speaker', title: 'Founder, Farmfixers' },
-  { name: 'Dr. Ishola Modupe Olanrewaju', role: 'Speaker', title: 'Founder, Orokifoods' },
+  {
+    name: 'Adedayo Oderinu',
+    role: 'Speaker',
+    title: 'Founder, Afinju 90.7 FM',
+    photo: oderinu,
+    bio: [
+      'Adedayo Oderinu is a trained civil engineer with years of construction industry experience spanning road and building construction, structural design, and construction management.',
+      'AT, as he is fondly called, is also a seasoned Nigerian broadcast executive, media consultant, and social entrepreneur based in Osogbo, Osun State. Over more than a decade in media and operational leadership, he has established himself as a dynamic broadcast entrepreneur who bridges journalism, talent development, commercial strategy, and community empowerment.',
+      'He is the Team Lead and ‘Chief Marketing Officer’ (as he loves to call himself) at Afinju 90.7 FM, where he has led a team of young broadcast journalists to create a brand of broadcasting that is urban, yet maintains close ties with the local community.',
+      'Adedayo is known in broadcast circles and the public domain for fearless current affairs analysis, public stakeholder engagements, and indigenous Yoruba language broadcasting. He anchors flagship broadcasts such as Gbagede Oro, Isin Afinju, and Karakata.',
+      'Beyond media, he serves as Senior Managing Partner at Signum Communications Limited, a media training and talent management outfit based in Osun State. He is also the Chief Operating Officer (COO) at Marblestone Homes Limited, a construction services company, demonstrating cross-industry expertise in commercial operations.',
+      'Through initiatives like Karakata, Adedayo leverages his broadcast platforms to empower young entrepreneurs, promote micro-businesses, and support local economic sustainability and food security. Over the last nine years, his efforts through Karakata have directly empowered about one thousand small business owners in and around Osun State.',
+      'He is the President of the Noah Olawuwo Oderinu Foundation, a social development organisation he founded to carry on the legacy of his father, a man deeply invested in human capacity development through education, healthcare, and agriculture.',
+      'Adedayo Oderinu is an author, public speaker, husband, and father who has dedicated his life to building a society that functions, not just for a few, but for every tier and every member.',
+    ],
+  },
+  {
+    name: 'Arch. Seye Opaleye',
+    role: 'Speaker',
+    title: 'Founder, Joycetech Global',
+    photo: opaleye,
+    bio: [
+      'Arch. Opaleye is a distinguished Architect, Project Management Professional, and entrepreneur with over two decades of leadership spanning public service, corporate strategy, and educational administration. He holds an OND and HND in Architecture from Osun State College of Technology, Esa-Oke, a Postgraduate Diploma in Architecture from the Federal University of Technology, Akure (FUTA), and a Diploma in Business Administration.',
+      'His career includes key roles at the Osun State Ministry of Works and Housing, Goke Omigbodun Associates, and Adigcon Builders, alongside serving as Headmaster of Omoleye Nursery and Primary School.',
+      'In 2011, he founded Creativich Global Concepts and Jumarcdab Global Concepts Limited, where he serves as CEO and Managing Director. Through these ventures, Arch. Opaleye has driven infrastructural development, created numerous local jobs, and mentored emerging talent, making a lasting socio-economic impact across Nigeria.',
+    ],
+  },
+  {
+    name: 'Taiwo Olaonipekun',
+    role: 'Speaker',
+    title: 'Founder, Farmfixers',
+    photo: olaonipekun,
+    bio: [
+      'Taiwo Olaonipekun is the visionary force behind Farmfixers, an esteemed agri-tech enterprise founded in 2014. His mission has been to lead the charge in revolutionising farming practices through the innovative concept of absentee farming and meticulous farm management.',
+      'Under his guidance, Farmfixers has overseen the management of over 400 acres of farmland. This initiative has not only yielded remarkable agricultural success but has also provided a platform for local farmers to showcase their industrious and creative farming endeavours.',
+      'Taiwo is unwavering in expanding Farmfixers’ outreach to local farmers, youth, widows, and their families, all with the overarching goal of enhancing food security and eradicating hunger in Nigeria. His leadership and management have consistently delivered substantial returns to investors, solidifying Farmfixers’ reputation on a global scale.',
+    ],
+  },
+  {
+    name: 'Dr. Ishola Modupe Olanrewaju',
+    role: 'Speaker',
+    title: 'Founder, Orokifoods',
+    photo: olanrewaju,
+    bio: [
+      'Dr. Ishola Modupe Olanrewaju is an educator, researcher, entrepreneur, and public speaker passionate about children’s learning and inclusive education. She holds a PhD in Early Childhood Education from Obafemi Awolowo University, with research focused on learning disabilities.',
+      'She is the founder of Orokifoods, a food-processing company known for its nutritious pap and cereal products. Through her work in education, business, and advocacy, she is committed to creating lasting impact in the lives of children, women, and communities.',
+    ],
+  },
   {
     name: 'Oluwaseyi Jeremiah Ojesanmi',
     role: 'Speaker',
