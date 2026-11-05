@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { ArrowUpRight, UserRound } from 'lucide-react'
-import { PROGRAMME, AUDIENCE, SPEAKERS } from '../data'
+import { ArrowUpRight, UserRound, Quote } from 'lucide-react'
+import { PROGRAMME, AUDIENCE, SPEAKERS, CONVENER } from '../data'
 import { LINKS } from '../config'
 import { Reveal, SectionHeading, Button } from '../components/ui'
 import stage from '../assets/img/stage.webp'
@@ -101,6 +101,43 @@ export function Audience() {
               </Reveal>
             )
           })}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export function Convener() {
+  const c = CONVENER
+  return (
+    <section id="convener" className="bg-white py-24 sm:py-32">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:gap-16 lg:px-8">
+        <Reveal className="lg:col-span-5">
+          <div className="relative mx-auto max-w-md lg:max-w-none">
+            <div className="absolute -top-4 -left-4 size-full rounded-3xl bg-gold-500/20" aria-hidden="true" />
+            <img
+              src={c.photo}
+              alt={c.name}
+              className="relative aspect-[4/5] w-full rounded-3xl object-cover object-top shadow-xl shadow-forest-900/10"
+              loading="lazy"
+            />
+            <span className="absolute bottom-5 left-5 rounded-full bg-forest-900/85 px-4 py-1.5 text-xs font-semibold tracking-wider text-gold-300 uppercase ring-1 ring-gold-500/30 backdrop-blur">
+              Convener
+            </span>
+          </div>
+        </Reveal>
+
+        <div className="lg:col-span-7">
+          <SectionHeading eyebrow="Meet the Convener" title={c.name} />
+          <Reveal delay={80}>
+            <p className="mt-3 font-display text-lg font-semibold text-gold-600">Convener, {c.title}</p>
+          </Reveal>
+          <Reveal delay={140} className="mt-8 space-y-4 text-lg leading-relaxed text-ink/75">
+            <Quote className="size-8 text-gold-500" aria-hidden="true" />
+            {c.bio.map((p) => (
+              <p key={p.slice(0, 24)}>{p}</p>
+            ))}
+          </Reveal>
         </div>
       </div>
     </section>
